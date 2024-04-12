@@ -1,25 +1,43 @@
 # Install Python and pip 
+
 sudo apt-get update
 
-sudo apt-get install python3-distutils
+sudo apt-get install python3
 
-sudo apt-get install python3-apt
+python3 --version
+
+sudo apt-get install git
+
+sudo apt-get install python3-pip
+
+git --version
+pip3 --version
 
 sudo apt-get install wget
 
 wget https://bootstrap.pypa.io/get-pip.py
 
-sudo python3 get-pip.py
+
+sudo apt update
+sudo apt install python3-venv
+
+python3 -m venv myenv
+source myenv/bin/activate
 
 
 # Install Mage
-sudo pip3 install mage-ai
+pip install mage-ai
+
 
 # Install Pandas
-sudo pip3 install pandas
+pip install pandas
+
+# Run Project
+mage start uber
 
 # Install Google Cloud Library
-sudo pip3 install google-cloud
+pip install google-cloud
+pip install google-cloud-bigquery
 
-sudo pip3 install google-cloud-bigquery
-
+pip install db-dtypes
+pip install dbt

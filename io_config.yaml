@@ -1,0 +1,19 @@
+version: 0.1.1
+default:
+  # Default profile created for data IO access.
+  # Add your credentials for the source you use, and delete the rest.
+ 
+  # Google
+  GOOGLE_SERVICE_ACC_KEY:
+    type: service_account
+    project_id: "uber-etl-pipeline-419918"
+    private_key_id: "8da6066a********fdd6a4e9ebf7d0d20887ef*********a7520b0"
+    private_key: "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgk**********AQC3AjGnZ48f3Jxl\ndaLKJhGBemfyE0h+AoACWTQ9X+H5EX+Wrjb7sjhGEuWclrZpiUR9PSKF7i/OZjPG\nfMCmyGlpllA1h56koe9duzADZMNSJKz0qrc0TiH3D7VZFpyenP87tq1hE59cACSv\n430Tx2pWCGRgEqPpO/zLtrBXYM/YLpqvbTL72Bjsbs8A+XHSb52GPDW5BK+/X/XR\n1FXNWJEVU+j3jRqN5DBbN4sVHvp+eN/cQ/iULBcmZTmkgPHIH7d4MNGoHsNeSFIQ\n8TgnPa3wTn6/2qWQbeX+FoIVe7Dy+OCqKfD0d5vFxOMvr9fDqDySnDeOzbyWO7Up\ngBly7rB9AgMBAAECggEAHDrw6OdvKxWPZJFEZtV/fs8giLWTyaheEb6r8cnAJHkg\nCuDd526jAqA4njKbeeUsVPtgv3MyGa8nTneBCllA9YIz5kYA4Vl/gKB29BcPkDTL\nH0TUVPO2hpN8QH1d9JO4RYBU93Qc8YauIhm/+hSZYSMTRMSrVzejM9N/GUN8XFb0\na/pW1lmKYICHJ2CjA7FDwoRS1hWguomIy/n4Wrx53/sKnibJi+uzyJX+2/B41hol\nkAa80RAQCjlLkLOt/hifeUiKU+WIGDZads7oxr0R7VpfKKzEpmGuE9Vt4Pshy5Gq\nHHC42V6c6Hg66nU0yXhjkyg2xWvMI2R4Up+WprI+4QKBgQD+Yc6I3mrvnP+TyXLs\nQqeI/eHRSnZ7bCPkmjiLdwPmjqgiai0mOQ3l19N3UmTeRD3dg8ndb11xg7ml4hnF\nUYer/1zIZCLxOrVvFzMzUUkMSjmpfMZAwz90V0MWqA9T3fL59rDLIWuvtYHvcTbQ\ncU5fikI1siI6GevACiVbqAjTcQKBgQC4LCyt0eeNj9Ujfe2MyG8fag1m/eVIAmXa\nm8dJU08XoUzJn8Ly1QOtRva/bMxzGFye8xcCck95RoMq323nlBeK/KUy8sb8OBli\nPlHDG1556B2OciTOrAaPzEpn2/Toy4zaodPYrSos/SbsOyiirA1jPeobpladIgi7\nXyUGYrXPzQKBgQDGzIcNHc0yf16ZD5kZnKmzfL3Kw0e/Au82C3RfQd6xgxFQ++tW\n8MW0tyvTF3gu3+P9Rq4uuIatXMVsJzv+oc3GlCXdkaxhG4GJVPc1hrPwv906YIHL\nQQtJD50liqeX4l+uC6V0yiSPR+lIyBCPa81VCwbdUd4/y9wa05MIg1SKcQKBgGCL\nb6Ry25Je6tkfI07gpzftjTcHM5ErCJ+vd6mdjWGSwcEUCcroFXRZNfIlI4vWIn+E\naPR0XeryJsJru55hCHJofGUX1W3ULqJMjunbSAxZvFy2w0q/7PSmn/6P1HPQeHcH\nzBjStcA9uJCvdl7IGICErVtvOApJFBC9EJinWC2lAoGABkkWqHnBNVN8Zi9pTj0a\nNTxy7QYNe/Ks3HieXdMHQUbK9rnmqq94rU9nS4MQli28Q7s+flNotqNUL7vVNksk\nuo+OeuFYbv1rylmQm/iYDV2Ot7Zhfvh6ZdaeX/3f21vv7lS+hxEt7ob5keH8kTkK\n+X66Hr9SyKsBGwBMNfLQeck=\n-----END PRIVATE KEY-----\n"
+    client_email: "uber-data-engineering-******.iam.gserviceaccount.com"
+    auth_uri: "https://accounts.google.com@@@@@@@@@@##########/o/auth"
+    token_uri: "https://*****.googleapis.com/token#######"
+    auth_provider_x509_cert_url: "https://www.googleapis.com/997553"
+    client_x509_cert_url: "https://www.googleapis.com/*&*&*&**&*&*&*&*&*/uber-data-engineering-project%40uber-etl-pipeline-419918.iam.gserviceaccount.com"
+  # GOOGLE_SERVICE_ACC_KEY_FILEPATH: "/path/to/your/service/account/key.json"
+  GOOGLE_LOCATION: US # Optional
+ 
